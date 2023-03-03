@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+
+  refund-date-calculator:
+    image: moraineparktech/student-time-management:latest
+    restart: always
+    container_name: student-time-management
+    ports:
+      - ${PORT}:${PORT}
+    environment:
+      NEXT_PUBLIC_HOST: ${NEXT_PUBLIC_HOST}
+      NEXT_PUBLIC_ENVIRONMENT: ${NEXT_PUBLIC_ENVIRONMENT}
+      PORT: ${PORT}
+    networks:
+      - web
+
+networks:
+  web:
+    name: mptc-nginx
