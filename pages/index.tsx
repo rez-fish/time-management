@@ -1,5 +1,5 @@
-import Category from '@/components/Days'
-import PieChart from '@/components/PieChart'
+import Category from '../components/Days'
+import PieChart from '../components/PieChart'
 import { Inter, Noto_Music } from '@next/font/google'
 import { useState } from 'react'
 

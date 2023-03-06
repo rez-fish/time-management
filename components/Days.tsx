@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { updateObjectInArray } from '@/util/data'
+import { updateObjectInArray } from '../util/data'
 
 // each day has a label and number of hours
 interface Day {
