@@ -70,7 +70,7 @@ const Category = ({
               {needDayHeaders ? (
                 <label
                   htmlFor="input"
-                  className="absolute text-xl font-bold bottom-8"
+                  className="absolute flex justify-center w-12 mx-auto text-xl font-bold bottom-8"
                 >
                   {d.label}
                 </label>

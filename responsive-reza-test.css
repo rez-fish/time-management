@@ -1,0 +1,56 @@
+.bottom-8 {
+  bottom: 6vmin;
+}
+
+.flex {
+  display: flex;
+  overflow: visible;
+}
+
+.gap-2 {
+  gap: .5rem;
+  min-width: 30px;
+  flex: 1 1 auto;
+  width: 75%;
+}
+
+.relative {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  min-width: auto;
+  min-height: auto;
+}
+
+.text-lg {
+  font-size: 2.5vmin;
+}
+
+.text-xl {
+  font-size: 2.5vmin;
+}
+
+.w-1\/4 {
+  width: 25%
+}
+
+.w-10 {
+  width: 2.5rem;
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.w-12 {
+  width: 100%;
+  min-width: 20px;
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.w-28 {
+  width: 7rem;
+  font-size: 16px;
+  font-size: 2.5vmin;
+  min-width: 50px;
+  width: 25%;
+}
